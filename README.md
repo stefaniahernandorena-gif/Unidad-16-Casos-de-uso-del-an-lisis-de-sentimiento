@@ -1,31 +1,38 @@
-# 📉 Enterprise Sentiment Audit: Metrics Framework, Confusion Matrix & Error Cases
+# 🏛️ Global E-commerce Sentiment Audit: Aspect Routing, Emotions & Business KPIs
 
-Este repositorio contiene la entrega final del laboratorio de **Casos de Uso del Análisis de Sentimiento**, diseñado bajo un enfoque analítico avanzado para la gestión de crisis reputacionales corporativas.
+Este repositorio contiene la entrega final correspondiente al laboratorio avanzado de **Casos de Uso del Análisis de Sentimiento**, aplicado de forma práctica a la auditoría automatizada de reseñas de productos multilingües en una plataforma global de comercio electrónico.
 
-La solución aborda de manera directa los desafíos de MLOps relacionados con el desbalance severo de clases y las limitaciones lingüísticas intrínsecas del procesamiento de lenguaje natural (NLP).
-
----
-
-## 🎯 Objetivos de Ingeniería e Impacto Crítico
-
-1. **Evaluación de Robustez:** Implementación de métricas insensibles al desbalance de clases (**F1-Score Macro**) y mapeo visual mediante **Matrices de Confusión** utilizando `scikit-learn`.
-2. **Auditoría de Casos de Error:** Identificación y aislamiento automatizado de fallas sistemáticas del modelo provocadas por **sarcasmo** e **ambigüedad sintáctica**.
-3. **Análisis de Espectro Técnico:** Comparación crítica del rendimiento, costos y latencias entre enfoques léxicos clásicos frente a arquitecturas profundas basadas en Transformers.
+El foco central del desarrollo radica en la traducción de métricas técnicas de Machine Learning (F1-Score) hacia Indicadores Clave de Rendimiento (KPIs) financieros y operacionales accionables para la alta gerencia.
 
 ---
 
-## 📊 Matriz de Confusión y Reporte de Inferencia
+## 🏢 Escenario de Negocio y Toolkit Implementado
 
-El sistema incorpora un entorno de validación cruzada que expone el balance real de Falsos Positivos y Falsos Negativos en momentos de estrés operacional:
+La solución automatiza la ingesta y el análisis estructural de opiniones de clientes, segmentando los flujos de datos bajo tres dimensiones analíticas:
+1. **Enrutamiento por Aspecto de Negocio:** Clasificación automática del departamento afectado (*Calidad de Producto, Logística y Envío, Soporte Técnico, Finanzas/Pagos*).
+2. **Detección de Emociones:** Identificación de estados psicológicos reactivos de fricción (*Ira, Frustración, Alegría, Gratitud*).
+3. **Control Multilingüe:** Procesamiento síncrono de interacciones complejas en inglés y español.
 
-```text
-======================================================================
-🎯 REPORTE DE EVALUACIÓN DE CALIDAD DEL MODELO (NLP)
-======================================================================
-🔹 F1-Score Global (Macro Average): 0.69
-🔹 F1-Score Clase Crítica (NEGATIVE): 0.84
-🔹 Precision Clase Crítica (NEGATIVE): 1.00
-🔹 Recall Clase Crítica (NEGATIVE): 0.73
-======================================================================
+---
 
+## 📈 Cuadro de Mando Corporativo (KPIs de NLP)
+
+A partir del set de datos de control, el sistema consolidó los indicadores de rendimiento utilizados para justificar el Retorno de Inversión (ROI):
+
+* **KPI 1: Tasa de Detección de Fricción Crítica (CFDR):** **75.00%** (Mide el porcentaje de usuarios insatisfechos localizados de forma autónoma. Objetivo corporativo: >90%).
+* **KPI 2: Tasa de Falsas Alarmas por Sarcasmo (FOAR):** **16.67%** (Mide el impacto financiero de errores de clasificación provocados por ironías sintácticas. Objetivo corporativo: <10%).
+* **KPI 3: Brecha de Rendimiento Multilingüe (Gap EN vs ES):** **27 puntos de F1** de degradación en español debido al sesgo de preentrenamiento del Transformer comercial.
+
+---
+
+## ⚙️ Instrucciones de Despliegue Local
+
+Garantice la consistencia del ecosistema analítico instalando las dependencias puras congeladas:
+
+```bash
+# 1. Clonar el repositorio institucional
+git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+
+# 2. Instalar dependencias puras (requirements libre de marcas de texto)
+pip install -r requirements.txt
 
